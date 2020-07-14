@@ -1,0 +1,35 @@
+{
+  "name": "grunt-globalize",
+  "description": "Grunt plugin for Globalize",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "cldrjs": "^0.5.1",
+    "globalize": "^1.5.0",
+    "globalize-compiler": "^1.1.1",
+    "iana-tz-data": ">=2019.0.0"
+  },
+  "devDependencies": {
+    "cldr-core": "^36.0.0",
+    "cldr-dates-full": "^36.0.0",
+    "cldr-numbers-full": "^36.0.0",
+    "cldr-units-full": "^36.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-nodeunit": "^2.1.0",
+    "grunt": "~1.1.0"
+  },
+  "peerDependencies": {
+    "cldr-core": ">=36.0.0",
+    "cldr-dates-full": ">=36.0.0",
+    "cldr-numbers-full": ">=36.0.0",
+    "cldr-units-full": ">=36.0.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dpolivy/grunt-globalize.git"
+  }
+}
