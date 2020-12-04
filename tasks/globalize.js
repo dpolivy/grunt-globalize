@@ -73,7 +73,7 @@ module.exports = function(grunt) {
         grunt.fail.warn('Couldn\'t find bundle for locale [' + locale + ']!');
       }
 
-      grunt.log.write('Processing [' + locale + ']: ');
+      grunt.log.write(`Processing [${locale}] with bundle [${bundle}]: `);
 
       // Array to save the desired formatters and parsers
       var formattersAndParsers = [];
